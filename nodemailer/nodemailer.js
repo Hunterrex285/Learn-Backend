@@ -19,8 +19,8 @@ const sendMail = async (email, data) => {
       await sendEmail({
         from: process.env.SMTP_EMAIL,
         to: email, // Corrected
-        subject: `Here is your report details`,
-        html: registered.replace(`{Your Verification Code}`, verificationToken),
+        subject: `This is your verification token.`,
+        message: verifyEmail.replace(`{Code}`, verificationToken),
       });
     }
 

@@ -62,8 +62,8 @@ export const verifyEmail = `
     <p style="font-size: 16px; color: #555;">Thank you for registering with us! To complete your registration, please verify your email address using the code below.</p>
   </div>
   <div style="background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
-    <h2 style="font-size: 24px; color: #333;">{Your Verification Code}</h2>
-    <p style="font-size: 20px; font-weight: bold; color: #4CAF50; background-color: #f4f7fc; padding: 10px; display: inline-block; border-radius: 5px;">123456</p>
+    <h2 style="font-size: 24px; color: #333;">Your Verification Code</h2>
+    <p style="font-size: 20px; font-weight: bold; color: #4CAF50; background-color: #f4f7fc; padding: 10px; display: inline-block; border-radius: 5px;">{Code}</p>
     <p style="font-size: 16px; color: #555;">Enter this code in the verification field to confirm your email.</p>
     <p style="font-size: 16px; color: #555;">If you did not sign up for this account, please ignore this email, and no action will be taken.</p>
   </div>
